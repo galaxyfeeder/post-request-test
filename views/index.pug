@@ -1,0 +1,14 @@
+html
+  head
+    title="POST request body test"
+  body
+    h1="POST request body test"
+
+    table
+      tr
+        th="Timestamp"
+        th="Body"
+      each entry in requests
+        tr
+          td= entry.timestamp
+          td= entry.body
